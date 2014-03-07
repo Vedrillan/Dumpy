@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Smile_Dumpy>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_Core/>
+                <Mage_Cron/>
+            </depends>
+        </Smile_Dumpy>
+    </modules>
+</config>

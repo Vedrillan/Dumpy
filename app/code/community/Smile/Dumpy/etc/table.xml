@@ -1,0 +1,12 @@
+<config>
+    <tables>
+        <customer_entity>email</customer_entity>
+        <newsletter_subscriber>subscriber_email</newsletter_subscriber>
+        <sales_flat_order>customer_email</sales_flat_order>
+        <sales_flat_order_address>email</sales_flat_order_address>
+        <sales_flat_order_grid>customer_email</sales_flat_order_grid>
+        <sales_flat_quote>customer_email</sales_flat_quote>
+        <sales_flat_quote_address>email</sales_flat_quote_address>
+        <aw_rma_entity>customer_email</aw_rma_entity>
+    </tables>
+</config>

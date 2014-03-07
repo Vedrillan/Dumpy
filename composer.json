@@ -1,0 +1,21 @@
+{
+    "name": "Vedrillan/Dumpy",
+    "type": "magento-module",
+    "license":"OSL-3.0",
+    "description":"Import dump to allow easy synchronization between environments",
+    "authors":[
+        {
+            "name":"David Wattier",
+            "email":"vedrillan@vedrillan.com"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "extra": {
+        "map": [
+            ["app/etc/modules/Smile_Dumpy.xml", "app/etc/modules/Smile_Dumpy.xml"],
+            ["app/code/community/Smile/Dumpy", "app/code/community/Smile/Dumpy"]
+        ]
+    }
+}
